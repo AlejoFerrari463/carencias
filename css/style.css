@@ -71,7 +71,7 @@ body {
 }
 
 .cards-imagenes {
-
+ 
    
     height: 100px;
     width: 100px;
@@ -87,7 +87,7 @@ body {
     .contenedor-cards {
 
         grid-template-columns: 1fr;
-        
+        margin-top: 0px;
     }
 
     .margen-sep {
