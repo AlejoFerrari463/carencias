@@ -65,6 +65,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
+    font-size: 25px;
 
 
 }
@@ -74,6 +75,39 @@ body {
    
     height: 100px;
     width: 100px;
+    margin: 10px;
 
+}
+
+/* CARDS - FIN */
+
+
+@media screen and (max-width: 992px) {
+    
+    .contenedor-cards {
+
+        grid-template-columns: 1fr;
+        
+    }
+
+    .margen-sep {
+
+        margin-top: 0px;
+    
+    }
+
+    .cards {
+
+        margin-top: 90px;
+    
+    }
+
+    .cards-resultado {
+
+      
+        font-size: 18px;
+
+
+    }
 
 }
